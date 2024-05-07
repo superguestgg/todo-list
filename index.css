@@ -44,7 +44,7 @@ button {
 .todo-list ul {
     padding: 0;
     list-style-type: none;
-}
+}   
 
 .todo-list li {
     display: flex;
@@ -58,4 +58,8 @@ button {
 
 .todo-list li label {
     flex-grow: 1;
+}
+
+.beforeRemove {
+    background-color: hsl(0, 100%, 65%);
 }
